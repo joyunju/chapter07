@@ -15,6 +15,7 @@ public class Server {
 		// ip 검색 --> 명령 프롬프트 ipconfig --> IPv4 주소 체크 / mas : ifconfig
 		// ip는 .이 있어서 문자열이라서 " " 안에 작성
 		// en1 : 192.168.35.88
+		// 내 로컬호스트호출 : lo0: inet 127.0.0.1
 		// "127.0.0.1", 5000
 		ServerSocket.bind(new InetSocketAddress("127.0.0.1", 10001)); // port번호는 개인이 설정
 

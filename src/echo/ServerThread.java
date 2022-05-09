@@ -44,6 +44,7 @@ public class ServerThread extends Thread {
 				String msg = br.readLine();
 
 				if (msg == null) {
+					System.out.println("클라이언트가 종료되었습니다.");
 					break;
 				}
 
